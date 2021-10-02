@@ -12,7 +12,7 @@ app = Flask(__name__)
 def homepage():
     return "<h1>Hello World</h1>"
 
-@app.route('/fruit', methods=['GET', 'POST', 'PATCH'])
+@app.route('/api/fruit', methods=['GET', 'POST', 'PATCH'])
 
 def fruit():
     fruit_name = "durian"
